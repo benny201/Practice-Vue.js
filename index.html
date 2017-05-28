@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Test</title>
+  </head>
+  <body>
+    <p>hello, Vue!</p>
+    <div id="app">
+      <p>{{ text }}</p>
+      <p>{{ sayHello() }}</p>
+      <a v-bind:href="link">google</a>
+      <button v-on:click="increse" type="button">click</button>
+      <p>{{ counter }}</p>
+      <p v-model="counter">{{ counter }}</p>
+    </div>
+    <script src="./js/vue.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
